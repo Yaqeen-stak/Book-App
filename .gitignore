@@ -7,3 +7,6 @@ logs
 
 # Optional eslint cache
 .eslintcache
+node_modules 
+.env
+.package-lock.json
