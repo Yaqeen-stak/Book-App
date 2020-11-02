@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <header></header>
+    <main>
+      <% bookResult.foreach(elem=> { %>
+        <section class="book-container">
+        <p><%=elem.title%></p>
+        <p><%=elem.author%></p>
+        <p><%=elem.description%></p>
+        <img src="<%=elem.imgUrl%>">
+        </section>
+
+     <% }) %>
+    </main>
+   
+</body>
+</html>

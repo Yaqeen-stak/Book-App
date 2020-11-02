@@ -1,4 +1,39 @@
-h1{
-    color: brown;
-    background-color: burlywood;
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+}
+header h1 {
+    background-color: black;
+    color: white;
+}
+header h2 {
+    background-color: darkgray;
+    color:white
+}
+footer{
+    background-color: black;
+    height: 30px;
+    /* display: inline-block; */
+    margin-top: 500px;
+}
+#form{
+    /* float: left; */
+    margin-right:50%;
+    margin-left: 50%;
+}
+#Enter{
+text-align: left;
+background-color: white;
+color: black;
+height: 50px;
+width: 400px;
+border:seashell solid  ;
+
+}
+.radio{
+    color: black;
+  
+background-color: lightgrey;
 }
