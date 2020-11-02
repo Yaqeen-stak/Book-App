@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/base.css">
+  
     <title>Search</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Best Books!</h1>
+        <h2>Search by Title or Author</h2>
+    </header>
     <main>
-        <input type="text" placeholder="Enter atitle or author">
-        <input type="radio" name="search" value="Title">
+        <form action="/searches" method="POST" id="form">
+
+        <input type="text" placeholder="Enter atitle or author" name="title" id="Enter">
+        <input type="radio" name="search" value="title" class="radio">
         <label for="Title">Title</label>
-        <input type="radio" name="search" value="Author">
+        <input type="radio" name="search" value="author" class="radio">
         <label for="Author">Author</label>
-        <button>Search the Google Books API</button>
+        <button id="button">Search the Google Books API</button>
+    </form>
     </main>
-    <footer></footer>
+    <footer>
+        
+    </footer>
 </body>
 </html>
